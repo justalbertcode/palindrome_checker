@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+main{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title{
+    text-align: center;
+    font-size: 3rem;
+    margin: 1rem;
+    color: #aaa;
+}
+
+.justalbertcode-logo{
+    border: 1px solid gray;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    width: 30%;
+    transition: ease-in all 0.3s;
+}
+.justalbertcode-logo:hover{
+    border: 1px solid rgb(197, 197, 197);
+    box-shadow: 
+    /* 0px 0px 3000px 0px #0ff; neon */
+    inset 0 0 50px #fff,      /* inner white */
+    inset 20px 0 80px #f0f,   /* inner left magenta short */
+    inset -20px 0 80px #0ff,  /* inner right cyan short */
+    inset 20px 0 300px #f0f,  /* inner left magenta broad */
+    inset -20px 0 300px #0ff, /* inner right cyan broad */
+    0 0 50px #fff,            /* outer white */
+    -10px 0 80px #f0f,        /* outer left magenta */
+    10px 0 80px #0ff;         /* outer right cyan */
+
+}
+
+.palindrome-div{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 1.5rem;
+}
+
+.label-input{
+    font-size: 1.5rem;
+    display: block;
+    margin: 1.5rem;  
+}
+
+.palindrome-input{
+    font-size: 1.3rem;
+    width: 50%;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 1.5rem;
+}
+
+.palindrome-btn{
+    font-size: 1.3rem;
+    padding: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #aaa;
+    color: black;
+    transition: ease-in all 0.2s;
+}
+.palindrome-btn:hover{
+    background-color: black;
+    color: #aaa;
+}
+
+.palindrome-definition{
+    background-color: #aaa;
+    color: #000;
+    font-size: 1.3rem;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.results-div{
+    margin: 20px;
+    font-size: 2rem;
+}
+
+dfn{
+    font-size: 1.3rem;
+    color: red;
+    font-style: italic;
+   
+}
+
+.hidden{
+    display: none;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.white{
+    background-color: white;
+}
